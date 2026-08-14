@@ -25,6 +25,14 @@
   #error "Please select only up to one hold-tap configuration at a time"
 #endif
 
+#if (defined HT_HOME_ROW_MODS || defined HT_TWO_THUMB_KEYS) && !defined CALLUM_NAVIGATION
+  #define ENABLE_HOME_ROW_MODS
+#endif
+
+#if defined VIM_NAVIGATION + defined CALLUM_NAVIGATION > 1
+  #error "Please select only one navigation style at a time"
+#endif
+
 // Memory
 
 #ifdef LOW_MEMORY_DEVICE

@@ -107,6 +107,12 @@
 // #define VIM_NAVIGATION
 
 // [Experimental]
+// Uncomment the following line to enable the Callum variant of the previous
+// `VIM_NAVIGATION` option. Both options are mutually exclusive.
+
+// #define CALLUM_NAVIGATION
+
+// [Experimental]
 // Uncomment the following line to enable the "mod-hold behavior" on the left
 // hand’s navigation layer key. Enabling this means that if the Alt key is held
 // when entering the navigation layer, Alt will only be released when nav is
