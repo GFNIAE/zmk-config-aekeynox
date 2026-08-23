@@ -92,7 +92,8 @@
   #define NUM_LAYER NAV_NUM_LAYER
   #define HRM_LAYER FN_MEDIA_LAYER
   #define S34_LAYER NAV_NUM_LAYER
-  #define REACH_TAP TAB
+  //#define REACH_TAP TAB
+  #define REACH_TAP ESCAPE
 #endif
 
 #if defined HT_TWO_THUMB_KEYS && !defined VIM_NAVIGATION
